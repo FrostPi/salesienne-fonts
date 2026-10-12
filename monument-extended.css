@@ -1,0 +1,29 @@
+/* PP Monument Extended – La Salésienne de Paris
+   Remplacer https://VOTRE-HEBERGEMENT/fonts/ par l'adresse réelle du dossier "fonts" */
+
+@font-face {
+  font-family: 'PP Monument Extended';
+  src: url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Light.woff2') format('woff2'),
+       url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Monument Extended';
+  src: url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Regular.woff2') format('woff2'),
+       url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Monument Extended';
+  src: url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Black.woff2') format('woff2'),
+       url('https://VOTRE-HEBERGEMENT/fonts/PPMonumentExtended-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
